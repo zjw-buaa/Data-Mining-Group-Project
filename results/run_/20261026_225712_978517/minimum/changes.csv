@@ -1,0 +1,2 @@
+﻿group,source_row_id,App,field,action,before,after,reason
+minimum,10473,Life Made WI-Fi Touchscreen Photo Frame,record,quarantine,rating_out_of_range_or_invalid;reviews_invalid;installs_invalid;price_invalid;size_invalid;category_invalid,,核心业务范围或格式冲突；隔离并保留原始值

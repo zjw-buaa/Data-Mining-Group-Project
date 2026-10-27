@@ -1,0 +1,7 @@
+Google Play Store Apps
+发布者：Lavanya / lava18
+原始页面：https://www.kaggle.com/datasets/lava18/google-play-store-apps
+获取日期：2026-10-24
+使用文件：googleplaystore.csv；未修改原始数据。
+本包保留原始下载包的license.txt，分享或再分发时按其要求署名与保留许可。
+下载日期不等于数据采集日期；这些是历史快照，不代表2026年应用商店现状。

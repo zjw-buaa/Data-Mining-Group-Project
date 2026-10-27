@@ -1,0 +1,53 @@
+{
+  "timestamp_asia_shanghai": "20261026_225712_978517",
+  "source_sha256": "3e438f48161961933d26e99a8d9fc8ed79edfaa9fb34f8838e1ab4ec7a9fab91",
+  "source_records": 10841,
+  "actual_invocation": "python run.py --agent required",
+  "reproduce_command": "python run.py --agent required",
+  "reproduce_output_note": "复现保留实际模式和模型选项，省略--out以自动新建目录；结果数值可核对，时间戳与耗时会变化。API环境配置须相同。",
+  "smoke": false,
+  "parameters": {
+    "seed": 42,
+    "stability_seeds": [
+      42,
+      52,
+      62
+    ],
+    "k_candidates": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "common_k": 4,
+    "silhouette_sample_max": 1500,
+    "n_init": 10,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "threads": 1
+  },
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "agent_status": "completed",
+  "completed_groups": [
+    "minimum",
+    "fixed",
+    "agent"
+  ],
+  "source_code_sha256": {
+    "src\\__init__.py": "4b0bf01be8b370280fa29067d636f25488c70a74a7ece983c33f0adbe512f894",
+    "src\\agent.py": "a54eff21bb2a82a7ce4e5e6e75e493cb1d80b2bd67f344c68e6036b711b79111",
+    "src\\clustering.py": "49da0933b88e20bcc52e2e5e9c32a6fd013a09ca31ceeeb1533f42bd8f347a75",
+    "src\\pipeline.py": "b9f812fe0503e4a055f802d5fcda6fea0fbf673d71cb91846a36c661e9bfeb77",
+    "src\\plots.py": "bed5f0667cad46234ea01fc9e3983d40a1638cc050fdecfa64fdec77f6c6823f",
+    "src\\quality.py": "a86af523559e5cd1eeab83c552d6d8938fd1bb67377b97e3bfa23a01122f3d64"
+  }
+}

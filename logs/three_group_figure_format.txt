@@ -1,0 +1,82 @@
+
+--- results/run_/20261026_225712_978517/figures\process_q1_imputation.png ---
+  category: raster  ext: png  size: 78945 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\process_q1_retention.png ---
+  category: raster  ext: png  size: 68853 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\process_q2_k_selection.png ---
+  category: raster  ext: png  size: 97710 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\raw_q1_quality.png ---
+  category: raster  ext: png  size: 82093 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\raw_q2_rating.png ---
+  category: raster  ext: png  size: 50736 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\raw_q2_reviews_installs.png ---
+  category: raster  ext: png  size: 185172 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\result_q1_remaining.png ---
+  category: raster  ext: png  size: 120050 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\result_q2_centers.png ---
+  category: raster  ext: png  size: 122173 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\result_q2_pca.png ---
+  category: raster  ext: png  size: 171647 B
+  pixels: 2160x1350  dpi: (299.9994, 299.9994)
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\process_q1_imputation.svg ---
+  category: vector  ext: svg  size: 9967 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\process_q1_retention.svg ---
+  category: vector  ext: svg  size: 9714 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\process_q2_k_selection.svg ---
+  category: vector  ext: svg  size: 13201 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\raw_q1_quality.svg ---
+  category: vector  ext: svg  size: 9663 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\raw_q2_rating.svg ---
+  category: vector  ext: svg  size: 14974 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\raw_q2_reviews_installs.svg ---
+  category: vector  ext: svg  size: 1781034 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\result_q1_remaining.svg ---
+  category: vector  ext: svg  size: 66854 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\result_q2_centers.svg ---
+  category: vector  ext: svg  size: 67584 B
+  [PASS] 无问题。
+
+--- results/run_/20261026_225712_978517/figures\result_q2_pca.svg ---
+  category: vector  ext: svg  size: 420048 B
+  [PASS] 无问题。
+

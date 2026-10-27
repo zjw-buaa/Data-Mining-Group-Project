@@ -1,0 +1,12 @@
+{
+  "silhouette": 0.36645001546620126,
+  "silhouette_sample_n": 1500,
+  "davies_bouldin": 1.0687320608905673,
+  "calinski_harabasz": 4046.209832749268,
+  "k": 3,
+  "seed": 42,
+  "inertia": 22578.450494268203,
+  "iterations": 8,
+  "converged_before_max_iter": true,
+  "seconds": 0.04669629999989411
+}

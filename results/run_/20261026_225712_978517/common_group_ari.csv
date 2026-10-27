@@ -1,0 +1,4 @@
+group_a,group_b,common_rows,k,adjusted_rand_index,max_abs_transformed_feature_difference
+minimum,fixed,7424,4,1.0,0.0
+minimum,agent,7424,4,1.0,0.0
+fixed,agent,7424,4,1.0,0.0

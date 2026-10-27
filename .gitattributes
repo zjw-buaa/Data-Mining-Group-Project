@@ -1,0 +1,11 @@
+# Preserve the bytes used by input and experiment checksums across Git clients.
+*.py text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.csv -text
+*.json -text
+*.jsonl -text
+*.svg -text
+*.png binary
+*.pdf binary
+*.docx binary

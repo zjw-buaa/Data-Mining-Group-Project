@@ -1,0 +1,103 @@
+{
+  "source": "data/raw/googleplaystore.csv",
+  "n_rows": 10841,
+  "n_cols": 13,
+  "columns": {
+    "App": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Category": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Rating": {
+      "type": "continuous",
+      "n_total": 10841,
+      "n_null": 1474,
+      "missing_rate": 0.13596531685268887,
+      "n": 9367,
+      "mean": 4.193338315362443,
+      "median": 4.3,
+      "sd": 0.5374313031477587,
+      "min": 1.0,
+      "max": 19.0,
+      "skewness": 0.5954459944110269,
+      "skew_label": "moderately skewed",
+      "n_outliers_iqr": 504,
+      "outlier_lo": 3.25,
+      "outlier_hi": 5.25,
+      "needs_log_axis": "False"
+    },
+    "Reviews": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Size": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Installs": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Type": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 1,
+      "missing_rate": 9.224241306152569e-05
+    },
+    "Price": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Content Rating": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 1,
+      "missing_rate": 9.224241306152569e-05
+    },
+    "Genres": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Last Updated": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 0,
+      "missing_rate": 0.0
+    },
+    "Current Ver": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 8,
+      "missing_rate": 0.0007379393044922055
+    },
+    "Android Ver": {
+      "type": "unknown",
+      "n_total": 10841,
+      "n_null": 3,
+      "missing_rate": 0.0002767272391845771
+    }
+  },
+  "correlation": null,
+  "group_summary": null,
+  "warnings": [],
+  "suggestions": [
+    "单个连续变量 Rating → 直方图 / KDE / 箱线图看分布"
+  ]
+}

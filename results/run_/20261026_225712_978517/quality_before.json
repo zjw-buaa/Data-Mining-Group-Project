@@ -1,0 +1,58 @@
+{
+  "row_count": 10841,
+  "column_count": 13,
+  "missing_by_column": {
+    "App": 0,
+    "Category": 0,
+    "Rating": 1474,
+    "Reviews": 0,
+    "Size": 0,
+    "Installs": 0,
+    "Type": 1,
+    "Price": 0,
+    "Content Rating": 1,
+    "Genres": 0,
+    "Last Updated": 0,
+    "Current Ver": 8,
+    "Android Ver": 3
+  },
+  "exact_duplicate_extra": 483,
+  "same_name_rows": 1979,
+  "quarantined_rows": 1,
+  "invalid_rating_rows": 1,
+  "size_states": {
+    "observed": 9145,
+    "varies": 1695,
+    "invalid": 1
+  },
+  "missing_rating_positive_reviews": 878,
+  "date_parse_failures": 1,
+  "type_price_conflicts": 0,
+  "format_workload": {
+    "size_M": 8829,
+    "size_k": 316,
+    "size_varies": 1695,
+    "installs_plus": 10839,
+    "price_dollar": 800
+  },
+  "invalid_examples": [
+    {
+      "source_row_id": 10473,
+      "App": "Life Made WI-Fi Touchscreen Photo Frame",
+      "Category": "1.9",
+      "Rating": "19",
+      "Reviews": "3.0M",
+      "Size": "1,000+",
+      "Installs": "Free",
+      "Type": "0",
+      "Price": "Everyone",
+      "Content Rating": "",
+      "Genres": "February 11, 2018",
+      "Last Updated": "1.0.19",
+      "Current Ver": "4.0 and up",
+      "Android Ver": "",
+      "invalid_reasons": "rating_out_of_range_or_invalid;reviews_invalid;installs_invalid;price_invalid;size_invalid;category_invalid"
+    }
+  ],
+  "scope": "Original listing records; app name is not a verified unique entity identifier."
+}

@@ -1,0 +1,13 @@
+﻿问题类型,source_row_id,App,原始Rating,原始Reviews,原始Size,原始Installs,原始Price,固定规则处理,rating_value,size_mb,size_state,cluster,机器处理说明,人工是否合理,人工疑问,复核人,最低必要处理_去留,最低必要处理_rating_value,最低必要处理_size_mb,最低必要处理_size_state,最低必要处理_cluster,固定规则_去留,固定规则_rating_value,固定规则_size_mb,固定规则_size_state,固定规则_cluster,DeepSeek智能体_去留,DeepSeek智能体_rating_value,DeepSeek智能体_size_mb,DeepSeek智能体_size_state,DeepSeek智能体_cluster
+缺失,24,Mcqueen Coloring pages,NaN,61,7.0M,"100,000+",0,保留,4.3,7.0,observed,1,评分缺失但评论数>0，不推断原因,,,,保留档案但排除聚类,,7.0,observed,,参与聚类,4.3,7.0,observed,1,保留档案但排除聚类,,7.0,observed,
+缺失,114,Wrinkles and rejuvenation,NaN,182,5.7M,"100,000+",0,保留,4.3,5.7,observed,1,评分缺失但评论数>0，不推断原因,,,,保留档案但排除聚类,,5.7,observed,,参与聚类,4.3,5.7,observed,1,保留档案但排除聚类,,5.7,observed,
+缺失,479,Truth or Dare Pro,NaN,0,20M,50+,$1.49,保留,4.3,20.0,observed,1,评分缺失，不以0替代评分,,,,保留档案但排除聚类,,20.0,observed,,参与聚类,4.3,20.0,observed,1,保留档案但排除聚类,,20.0,observed,
+重复,230,Quick PDF Scanner + OCR FREE,4.2,80805,Varies with device,"5,000,000+",0,完全重复移除,,,varies,,原始13列完全重复；核对保留首条,,,,保留档案但排除聚类,4.2,,varies,,完全重复移除,,,,,完全重复移除,,,,
+重复,237,Box,4.2,159872,Varies with device,"10,000,000+",0,完全重复移除,,,varies,,原始13列完全重复；核对保留首条,,,,保留档案但排除聚类,4.2,,varies,,完全重复移除,,,,,完全重复移除,,,,
+重复,240,Google My Business,4.4,70991,Varies with device,"5,000,000+",0,完全重复移除,,,varies,,原始13列完全重复；核对保留首条,,,,保留档案但排除聚类,4.4,,varies,,完全重复移除,,,,,完全重复移除,,,,
+异常或噪声,10473,Life Made WI-Fi Touchscreen Photo Frame,19,3.0M,"1,000+",Free,Everyone,隔离,,,invalid,,整行隔离；保留每个冲突字段和原值,,,,隔离,,,,,隔离,,,,,隔离,,,,
+异常或噪声,2809,Google Photos,4.5,10858556,Varies with device,"1,000,000,000+",0,保留,4.5,13.0,varies,0,合法高安装量，用于核查是否误删热门应用,,,,保留档案但排除聚类,4.5,,varies,,参与聚类,4.5,13.0,varies,0,参与聚类,4.5,10.0,varies,0
+异常或噪声,4368,I'm Rich - Trump Edition,3.6,275,7.3M,"10,000+",$400.00,保留,3.6,7.3,observed,2,合法高价格，用于核查是否仅因数值大误删,,,,参与聚类,3.6,7.3,observed,0,参与聚类,3.6,7.3,observed,2,参与聚类,3.6,7.3,observed,2
+类型或格式,59,Restart Navigator,4.0,1403,201k,"100,000+",0,保留,4.0,0.201,observed,1,k转MB，除以1000,,,,参与聚类,4.0,0.201,observed,2,参与聚类,4.0,0.201,observed,1,参与聚类,4.0,0.201,observed,1
+类型或格式,1,Photo Editor & Candy Camera & Grid & ScrapBook,4.1,159,19M,"10,000+",0,保留,4.1,19.0,observed,1,M转MB，数值保持,,,,参与聚类,4.1,19.0,observed,2,参与聚类,4.1,19.0,observed,1,参与聚类,4.1,19.0,observed,1
+类型或格式,38,Floor Plan Creator,4.1,36639,Varies with device,"5,000,000+",0,保留,4.1,13.0,varies,0,保留varies状态；建模代理不是真实大小,,,,保留档案但排除聚类,4.1,,varies,,参与聚类,4.1,13.0,varies,0,参与聚类,4.1,8.95,varies,0

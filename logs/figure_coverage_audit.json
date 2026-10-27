@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "directory": "C:\\Users\\user\\Documents\\Codex\\2026-10-26\\google-play-26-27-25-codex\\outputs\\google-play-project\\results\\run_1026_delivery\\figures",
+  "questions": [
+    "q1",
+    "q2"
+  ],
+  "files": {
+    "process_q1_imputation.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "process_q1_imputation.svg": {
+      "text_count": 15,
+      "embedded_raster": false
+    },
+    "process_q1_retention.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "process_q1_retention.svg": {
+      "text_count": 13,
+      "embedded_raster": false
+    },
+    "process_q2_k_selection.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "process_q2_k_selection.svg": {
+      "text_count": 17,
+      "embedded_raster": false
+    },
+    "raw_q1_quality.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "raw_q1_quality.svg": {
+      "text_count": 18,
+      "embedded_raster": false
+    },
+    "raw_q2_rating.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "raw_q2_rating.svg": {
+      "text_count": 15,
+      "embedded_raster": false
+    },
+    "raw_q2_reviews_installs.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "raw_q2_reviews_installs.svg": {
+      "text_count": 16,
+      "embedded_raster": false
+    },
+    "result_q1_remaining.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "result_q1_remaining.svg": {
+      "text_count": 26,
+      "embedded_raster": false
+    },
+    "result_q2_centers.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "result_q2_centers.svg": {
+      "text_count": 33,
+      "embedded_raster": false
+    },
+    "result_q2_pca.png": {
+      "width_px": 2160,
+      "height_px": 1350,
+      "dpi_x": 299.9994,
+      "dpi_y": 299.9994,
+      "width_in": 7.200014400028801,
+      "height_in": 4.500009000018
+    },
+    "result_q2_pca.svg": {
+      "text_count": 18,
+      "embedded_raster": false
+    }
+  },
+  "issues": []
+}

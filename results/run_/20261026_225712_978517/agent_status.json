@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "real_model_called": true,
+  "calls": 1,
+  "requested_model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "prompt_tokens": 1180,
+  "completion_tokens": 232,
+  "cost_usd": null,
+  "cost_note": "未知报价或usage缺失时不估造费用",
+  "seconds": 2.1201805000018794,
+  "validated_plan": {
+    "policy": {
+      "deduplicate": true,
+      "rating": "drop",
+      "size": "category_median"
+    },
+    "reasons": {
+      "deduplicate": "质量统计显示 exact_duplicate_extra=483，表示存在完全重复的多余行；移除这些完全相同的多余记录不会丢失不同应用的信息。App 名称不是唯一实体标识，same_name_rows 不作为合并依据。",
+      "rating": "Rating 缺失 1474 行，另有 1 行非法评分已隔离，cannot推断缺失原因；将缺失或非法核心评分排除出聚类（保留 cleaned 档案），不因数值缺失删除整条记录；不使用中位数填充以避免制造评分信号。",
+      "size": "Size 中 M、k、Varies with device 和 1 个非法值需严格解析单位；Varies with device 是特殊大小状态，不当作 -1 或 0，也不按数值大小删除合法记录；对可解析数值缺失/非法核心值采用同分类中位数填充（同分类至少20个有效观测，否则回退全局中位数），保留 cleaned 档案并维护大小特征可比性。"
+    }
+  }
+}
