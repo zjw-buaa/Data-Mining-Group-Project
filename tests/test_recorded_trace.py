@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from replay_recorded_run import DEFAULT_RECORDED, ROOT, load_trace
+from scripts.replay import DEFAULT_RECORDED, ROOT, load_trace
 
 
 class TraceProvenanceTests(unittest.TestCase):

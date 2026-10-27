@@ -4,7 +4,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$projectRoot = $PSScriptRoot
+$projectRoot = Split-Path -Parent $PSScriptRoot
 $taskRoot = Split-Path -Parent (Split-Path -Parent $projectRoot)
 $venvPython = Join-Path $projectRoot '.venv\Scripts\python.exe'
 $bundledPython = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'

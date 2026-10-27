@@ -5,5 +5,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
-results/smoke*/
 logs/private/
+# Publish only the reviewed final experiment. New runs stay local.
+results/*
+!results/final/
