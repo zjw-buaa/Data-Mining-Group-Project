@@ -1,0 +1,35 @@
+{
+  "source": "用户在本次对话提供的DeepSeek用量页面截图；按用户说明对应2026年10月26/27日",
+  "screen_notes": "截图筛选为全部API Key，不展示response_id及精确金额；以日期、次数和tokens与日志对应。不从图柱高度反推金额。",
+  "files": {
+    "deepseek_usage_20261026.png": "30b705b1deca56a1d6cfb74904e503737e6d14505ac1c11fb2c15a1ad5854565",
+    "deepseek_usage_20261027.png": "e9c7d6d547d3be2acf620b7c352f193f2e674b73b48cd17e7fdf3ce46b78d11b"
+  },
+  "daily": [
+    {
+      "账单证据分组": "20261026",
+      "截图筛选日期": "10/26—10/26",
+      "对应实验": "主实验",
+      "API请求次数": 1,
+      "tokens": 1412,
+      "消费显示": "<¥0.01 CNY",
+      "精确金额CNY": "",
+      "严格上界CNY": "0.01",
+      "范围": "当日全部API Key的日汇总；与主实验次数及tokens匹配",
+      "证据文件": "evidence/deepseek_usage_20261026.png"
+    },
+    {
+      "账单证据分组": "20261027",
+      "截图筛选日期": "10/27—10/27",
+      "对应实验": "补充1、2、3合计",
+      "API请求次数": 3,
+      "tokens": 4077,
+      "消费显示": "<¥0.01 CNY",
+      "精确金额CNY": "",
+      "严格上界CNY": "0.01",
+      "范围": "当日全部API Key的日汇总；与补充三次次数及tokens匹配",
+      "证据文件": "evidence/deepseek_usage_20261027.png"
+    }
+  ],
+  "original_logs_modified": false
+}

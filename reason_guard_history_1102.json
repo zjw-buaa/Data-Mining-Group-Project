@@ -1,0 +1,127 @@
+{
+  "mode": "retrospective_read_only_rule_audit",
+  "version": "reason-rules-1.0",
+  "new_api_calls": 0,
+  "historical_experiments_modified": false,
+  "limitation": "有限规则检查；未发现冲突不等于自然语言理由完整、真实或科学正确。",
+  "runs": [
+    {
+      "run": "main",
+      "historical_status": "completed",
+      "original_response_id": "3fec716d-b506-42df-ac54-9c73c20b2e60",
+      "source_status_sha256": "166e3f33680e40d25e8e0ebfb4fb88bc68d18196c157ba5e4c5e75f15695f881",
+      "source_log_sha256": "c9b16953029107386a3854b11c4f48c0eedaa492b31ba0bb4d9704557c543001",
+      "audit": {
+        "version": "reason-rules-1.0",
+        "status": "no_rule_conflict_found",
+        "allow_execution": true,
+        "issues": [],
+        "fields": {
+          "deduplicate": {
+            "policy": true,
+            "reason": "质量统计显示 exact_duplicate_extra=483，表示存在完全重复的多余行；移除这些完全相同的多余记录不会丢失不同应用的信息。App 名称不是唯一实体标识，same_name_rows 不作为合并依据。"
+          },
+          "rating": {
+            "policy": "drop",
+            "reason": "Rating 缺失 1474 行，另有 1 行非法评分已隔离，cannot推断缺失原因；将缺失或非法核心评分排除出聚类（保留 cleaned 档案），不因数值缺失删除整条记录；不使用中位数填充以避免制造评分信号。"
+          },
+          "size": {
+            "policy": "category_median",
+            "reason": "Size 中 M、k、Varies with device 和 1 个非法值需严格解析单位；Varies with device 是特殊大小状态，不当作 -1 或 0，也不按数值大小删除合法记录；对可解析数值缺失/非法核心值采用同分类中位数填充（同分类至少20个有效观测，否则回退全局中位数），保留 cleaned 档案并维护大小特征可比性。"
+          }
+        },
+        "limitation": "有限规则检查；未发现冲突不等于自然语言理由完整、真实或科学正确。"
+      }
+    },
+    {
+      "run": "02",
+      "historical_status": "completed",
+      "original_response_id": "30b48103-4e26-4451-aebe-1fac1bf53f78",
+      "source_status_sha256": "9dfd81850acc6fc9799b1ed891743267f59c7627e1c784285c00bc92a7ca67f4",
+      "source_log_sha256": "35a166614efea03b6dee8fa5dd44a72f37dfdd300de25ac1961b4a0db12f8dbc",
+      "audit": {
+        "version": "reason-rules-1.0",
+        "status": "no_rule_conflict_found",
+        "allow_execution": true,
+        "issues": [],
+        "fields": {
+          "deduplicate": {
+            "policy": true,
+            "reason": "存在483条完全重复的多余记录，因此移除完全重复项；相同App名称的行不按名称合并，因为App名称不是经过验证的唯一实体标识符。"
+          },
+          "rating": {
+            "policy": "drop",
+            "reason": "有1474条评分缺失，其中878条仍有正向评论；对缺失值不推断原因，不填充中位数（仅按全局或分类中位数填补会制造未观测值），因此将缺失评分记录不参与聚类，但仍保留在cleaned档案中。"
+          },
+          "size": {
+            "policy": "drop",
+            "reason": "有1695条Size为“Varies with device”、1条非法，需保留为特殊大小状态并单独处理，不能当作-1或0；单位已严格解析（M/k），但这些记录没有可比较的固定数值大小，因此不参与聚类并保留在cleaned档案中。"
+          }
+        },
+        "limitation": "有限规则检查；未发现冲突不等于自然语言理由完整、真实或科学正确。"
+      }
+    },
+    {
+      "run": "03",
+      "historical_status": "completed",
+      "original_response_id": "9eb305d5-a4d9-4f85-87ba-3787b9a69236",
+      "source_status_sha256": "85510ec85412d5230137dcb10e31809e6f8a6e3e44b20650ab4a6780c0b8477e",
+      "source_log_sha256": "20faf258b0fc4f74faa2a2b9f2879d6244157d98a75fdb5245c9e7a94fac2748",
+      "audit": {
+        "version": "reason-rules-1.0",
+        "status": "no_rule_conflict_found",
+        "allow_execution": true,
+        "issues": [],
+        "fields": {
+          "deduplicate": {
+            "policy": true,
+            "reason": "数据包含483条完全重复的多余记录；这些是真正的重复行，可移除多余副本，而仅凭应用名称相似并不足以据此合并记录（存在1979行同名记录）。"
+          },
+          "rating": {
+            "policy": "drop",
+            "reason": "有1474个评分缺失，另有1个评分值无效或越界；保留合法评分，但将缺失或无效评分排除在聚类参与之外，避免将特殊状态当作0或-1，也不推断缺失原因。"
+          },
+          "size": {
+            "policy": "drop",
+            "reason": "有1695个“Varies with device”状态和1个无效大小；保留清晰解析出的数值大小（M/k），但将特殊或非法大小状态排除在聚类参与之外，而不是把它们当作0或中位数。"
+          }
+        },
+        "limitation": "有限规则检查；未发现冲突不等于自然语言理由完整、真实或科学正确。"
+      }
+    },
+    {
+      "run": "04",
+      "historical_status": "completed",
+      "original_response_id": "7554f1eb-81e3-4b10-ace0-eb2e5e6b4471",
+      "source_status_sha256": "4535154c0009c21140b5bfcd20d0368a225e649d18212efb9480788922ab68b9",
+      "source_log_sha256": "c5c84303142bd10f58d978dda7d91b6c0d2910e018e3482618dd1211330fb350",
+      "audit": {
+        "version": "reason-rules-1.0",
+        "status": "needs_clarification",
+        "allow_execution": false,
+        "issues": [
+          {
+            "field": "size",
+            "code": "policy_reason_conflict",
+            "evidence": "不适合用中位数填充"
+          }
+        ],
+        "fields": {
+          "deduplicate": {
+            "policy": true,
+            "reason": "存在483条完全重复的多余记录，删除它们可保留唯一的原始档案，且不会合并同名的不同应用。"
+          },
+          "rating": {
+            "policy": "drop",
+            "reason": "1474条记录的评分缺失，其中878条带有正评论数；按固定安全处理，不推断缺失原因，也不以数值方式大批量删除，仅将缺失或无效评分的记录从聚类中排除。"
+          },
+          "size": {
+            "policy": "category_median",
+            "reason": "大小字段混有M、k、Varies等状态；Varies是特殊状态，不能当作数值参与计算。明显非法或错位的大小核心值已隔离，而Varies和缺失记录不适合用中位数填充，因此按类别取中位数（同类别有效观测不足20时回退全局中位数），以保留cleaned档案供聚类使用。"
+          }
+        },
+        "limitation": "有限规则检查；未发现冲突不等于自然语言理由完整、真实或科学正确。"
+      }
+    }
+  ]
+}
